@@ -29,6 +29,12 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* task-1 */
 
 .list {
@@ -89,5 +95,29 @@ ul {
   list-style: none;
 }
 
+/* task-3 */
 
+.input {
+  width: 360px;
+    height: 40px;
+    border: 1px solid #808080;
+      border-radius: 4px;
+      margin-top: 24px;
+      margin-bottom: 16px;
+      margin-left: 24px;
+      padding: 16px;
+      font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
 
+.title-input {
+  margin-left: 24px;
+  font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
