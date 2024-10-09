@@ -157,6 +157,11 @@ img {
     border-radius: 4px;
     width: 360px;
     height: 40px;
+  
+}
+
+.form-input:hover {
+  border: 1px solid #000;
 }
 
 .btn {
@@ -172,4 +177,52 @@ img {
       line-height: 1.5;
       letter-spacing: 0.04em;
       color: #fff;
+      cursor: pointer;
+}
+
+.btn:hover {
+  background: #6c8cff;
+}
+
+/* task-5 */
+
+.widget {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+}
+
+.text {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.change-color {
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+    background: #4e75ff;
+    cursor: pointer;
+    border: none;
+}
+
+.change-color:hover {
+  background: #6c8cff;
 }
