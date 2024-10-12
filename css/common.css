@@ -164,6 +164,10 @@ img {
   border: 1px solid #000;
 }
 
+.form-input:active {
+  border: 1px solid #808080;
+}
+
 .btn {
   display: block;
   border-radius: 8px;
@@ -225,4 +229,85 @@ img {
 
 .change-color:hover {
   background: #6c8cff;
+}
+
+/* task-6 */
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 104px;
+    background: #f6f6fe;
+    margin: auto;
+    gap: 16px;
+
+}
+
+.box {
+  display: flex;
+  
+  justify-content: center;
+  border-radius: 8px;
+    padding: 32px;
+    width: auto;
+    height: auto;
+    background: #f6f6fe;
+    margin-top: 16px;
+    gap: 44px;
+
+}
+
+.cntl-input {
+  border: 1px solid #808080;
+    border-radius: 8px;
+    padding-left: 72px;
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.btn-create {
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+      cursor: pointer;
+      background: #4e75ff;
+      border: none;
+}
+
+.btn-create:hover {
+  background: #6c8cff;
+}
+
+.btn-destroy{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background: #ff4e4e;
+    font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+}
+
+.btn-destroy:hover {
+  background: #ff7070;
 }
