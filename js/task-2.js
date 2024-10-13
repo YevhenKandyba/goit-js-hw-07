@@ -25,17 +25,24 @@ const images = [
   }
 ];
 
-const gallery = document.querySelector('.gallery');
-images.forEach(({ url, alt }) => {
-  const listItem = document.createElement("li");
-  const img = document.createElement("img");
-  img.src = url;
-  img.alt = alt;
-  img.width = 360;
-  img.height = 300;
-  listItem.append(img);
-  gallery.append(listItem);
-});
+const gallery = document.querySelector('.gallery'); 
 
+const createGalleryItems = (images) => {
+  const fragment = document.createDocumentFragment();
 
+  images.forEach(image => {
+    const li = document.createElement('li'); 
+    const img = document.createElement('img');
+    img.src = image.url;
+    img.alt = image.alt;
+    img.width = 360;
+    img.height = 300;
+    li.appendChild(img);
+    fragment.appendChild(li);
+  });
+
+  gallery.appendChild(fragment);
+};
+
+createGalleryItems(images);
   
